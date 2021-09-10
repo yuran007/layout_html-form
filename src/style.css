@@ -1,1 +1,19 @@
-/* styles go here */
+body {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.form-input {
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+fieldset > div:last-of-type {
+  margin-bottom: 0;
+}
